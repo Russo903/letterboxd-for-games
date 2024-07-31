@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+.navbar ul{
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto-light;
+    list-style: none;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar .logo{
+    margin-right: auto;
+}
+
+.navbar .navlinks{
+    display: flex;
+    gap: 20px;
+}
+
+
+.center{
+    text-align: center;
+
+}
+
+.center-header{
+    text-align: center;
+}
+
+header{
+    background-color: aliceblue;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+        
+}
+
+#box1{
+    margin-top: 0px;
+}
+
+h1{
+    font-family: Roboto-Bold;
+    font-size: 3.5em;
+    letter-spacing: -2.2px;
+    
+}
+
+h2{
+    font-family: Roboto-Bold;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    
+}
+
+h3{
+    font-family: Roboto-light;
+    font-weight: normal;
+    color: gray;
+    font-size: 23px;
+    margin-top: -30px;
+}
+
+h4{
+    font-family: Roboto-light;
+    font-weight: normal;
+    color: gray;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+
+.search{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 38px;
+    width: 80px;
+    font-family: Roboto-light;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(91, 173, 255);
+}
+
+.box{
+    text-align: center;
+    
+}
+
+
+
+
+.searchbar{
+    height: 34px;
+    border-radius: 5px;
+    border-style: non;
+    border: 1px solid rgb(235, 234, 234);
+    width: 475px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.popular-games-section{
+    height: 600px;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 20x;
+    font-family: Roboto-light;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    max-width: 200px;
+    height: 450px;
+    cursor: pointer;
+    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.card-content a{
+    margin-top: auto;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content h2{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 16px;
+    letter-spacing: .5px;
+} 
+
+.card-content p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 13px;
+    letter-spacing: .5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+} 
+
+
+.card:hover{
+    transform: scale(1.05)
+    
+}
+
+.recent-reviews-section{
+    background-color: aliceblue;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 20x;
+    font-family: Roboto-light;
+    
+}
